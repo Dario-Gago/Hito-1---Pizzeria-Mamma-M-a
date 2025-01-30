@@ -8,7 +8,7 @@ const Home = () => {
         <h2>Tenemos las mejores pizzas que podrás encontrar</h2>
         <hr />
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex flex-wrap justify-content-center">
         <CardPizza
           nombre="Napolitana"
           precio={5950}
